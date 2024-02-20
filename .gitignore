@@ -1,0 +1,27 @@
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+wp-content/upgrade/
+wp-content/uploads/
+
+# Ignore theme-specific files
+node_modules/
+dist/
+*.zip
+
+# Ignore development and build files
+Gruntfile.js
+package.json
+package-lock.json
+webpack.config.js
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Ignore Composer dependencies
+vendor/
+
+# Ignore sensitive or environment-specific information
+wp-config.php
+*.sql
